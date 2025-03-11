@@ -3,7 +3,436 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" defer></script>
+    <title>Welcome to Tutor</title>
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar navbar-scroll">
+      <div class="navbar-flex container">
+        <img src="images/logo.svg" alt="Tutor" />
+        <div class="main-menu-items">
+          <ul class="main-menu-list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#chapters">Chapters</a></li>
+            <li><a href="#audience">Audience</a></li>
+            <li><a href="#takeaways">Takeaways</a></li>
+            <li><a href="#author">Author</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <a href="https://facebook.com" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+          <!-- Hamburger Button -->
+          <div class="mobile-menu-toggle">
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
+          <!-- Mobile Menu Items -->
+          <div class="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#chapters">Chapters</a></li>
+              <li><a href="#summary">Summary</a></li>
+              <li><a href="#takeaways">Takeaways</a></li>
+              <li><a href="#author">Author</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li>
+                <a href="https://facebook.com" target="_blank">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://x.com/" target="_blank">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="hero-flex container">
+        <div class="hero-content">
+          <h1>Create Your Own Courses</h1>
+          <p> 
+            Dive deep into the world of creativity and learn to craft stunning
+            videos that captivate your audience.
+          </p>
+          <a href="#" class="btn">$29 Get Course</a>
+          <a href="#" class="btn btn-sencondary">See Details</a>
+        </div>
+        <img src="images/header-course.png" alt="hero image">
+      </div>
+      <svg
+      class="frame-decoration"
+      data-name="Layer 2"
+      xmlns="http://www.w3.org/2000/svg"
+      preserveAspectRatio="none"
+      viewBox="0 0 1920 192.275"
+    >
+      <defs>
+        <style>
+          .cls-1 {
+            fill: #ffffff;
+          }
+        </style>
+      </defs>
+      <title>frame-decoration</title>
+      <path
+        class="cls-1"
+        d="M0,158.755s63.9,52.163,179.472,50.736c121.494-1.5,185.839-49.738,305.984-49.733,109.21,0,181.491,51.733,300.537,50.233,123.941-1.562,225.214-50.126,390.43-50.374,123.821-.185,353.982,58.374,458.976,56.373,217.907-4.153,284.6-57.236,284.6-57.236V351.03H0V158.755Z"
+        transform="translate(0 -158.755)"
+      />
+    </svg>
+    </header>
+
+     <!-- Learn Section -->
+     <section class="learn">
+      <div class="container">
+        <div class="section-header">
+          <h2>What will you learn?</h2>
+          <div class="heading-border"></div>
+          <p>
+            Embark on a journey of learning with our comprehensive video
+            courses. Discover the secrets of successful video creation and
+            enhance your skills.
+          </p>
+        </div>
+        <div class="topics">
+          <div class="topic">
+            <div class="topic-image">
+              <img src="images/description-1.jpg" alt="topic" />
+            </div>
+            <div class="topic-text">
+              <h3>Set Clear Objectives and Goals</h3>
+            </div>
+          </div>
+          <div class="topic">
+            <div class="topic-image">
+              <img src="images/description-2.jpg" alt="alternative" />
+            </div>
+            <div class="topic-text">
+              <h3>Plan Layout And Design Elements</h3>
+            </div>
+          </div>
+          <div class="topic">
+            <div class="topic-image">
+              <img src="images/description-3.jpg" alt="alternative" />
+            </div>
+            <div class="topic-text">
+              <h3>Sketch Creative Concepts</h3>
+            </div>
+          </div>
+
+          <div class="topic">
+            <div class="topic-image">
+              <img src="images/description-5.jpg" alt="alternative" />
+            </div>
+            <div class="topic-text">
+              <h3>Choose High-Quality HTML Templates</h3>
+            </div>
+          </div>
+          <div class="topic">
+            <div class="topic-image">
+              <img src="images/description-6.jpg" alt="alternative" />
+            </div>
+            <div class="topic-text">
+              <h3>Create Impressive Layout Previews</h3>
+            </div>
+          </div>
+
+          <div class="topic">
+            <div class="topic-image">
+              <img src="images/description-8.jpg" alt="alternative" />
+            </div>
+            <div class="topic-text">
+              <h3>Launch Your Project Successfully Online</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+
+      <!-- Course Chapter Section -->
+      <section class="chapters section" id="chapters">
+        <div class="container">
+          <div class="section-header">
+            <h2>
+              Main Course Chapters
+            </h2>
+            <div class="heading-border"></div>
+            <p>
+              Explore the core concepts and techniques covered in our video
+              course. Each chapter is designed to equip you with essential skills
+              for video creation.
+            </p>
+          </div>
+          <div class="chapter-cards">
+            <div class="card">
+              <img src="images/chapters-icon-1.svg" alt="chapter 1" />
+              <h3>Setting Clear Objectives</h3>
+              <p>
+                Learn how to define clear objectives and goals for your video
+                projects, ensuring focus and direction
+              </p>
+            </div>
+            <div class="card">
+              <img src="images/chapters-icon-2.svg" alt="chapter 2" />
+              <h3>Content Creation Strategies</h3>
+              <p>
+                Dive into effective content creation strategies that resonate with
+                your audience
+              </p>
+            </div>
+            <div class="card">
+              <img src="images/chapters-icon-3.svg" alt="chapter 3" />
+              <h3>Coding Essentials</h3>
+              <p>
+                Explore the fundamentals of coding for video projects, including
+                HTML, CSS, and JavaScript
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Audience -->
+       <section class="audience" id="audience">
+        <div class="info-container">
+          <div class="info-left"></div>
+          <div class="info-content">
+            <h2>Who Is This Course For?</h2>
+            <p>
+              This course is designed for individuals seeking to enhance their
+              skills and knowledge in web design, development, and digital
+              marketing. Whether you are a seasoned web designer, a budding web
+              developer or a marketing professional looking to expand your skill
+              set.
+            </p>
+            <ul>
+              <li><i class="fas fa-check text-secondary"></i> Web Designers</li>
+              <li><i class="fas fa-check text-secondary"></i> Web Developers</li>
+              <li><i class="fas fa-check text-secondary"></i> Marketing Professionals</li>
+              <li><i class="fas fa-check text-secondary"></i> Entreprenuers</li>
+              <li><i class="fas fa-check text-secondary"></i> Business Owners</li>
+            </ul>
+          </div>
+        </div>
+       </section>
+
+       <!-- Testimonials -->
+        <section class="testimonials section">
+          <div class="container">
+            <div class="section-header">
+              <h2>Students' Testimonials</h2>
+              <div class="heading-border"></div>
+              <p>
+                Hear what our students have to say about their learning
+                experience. Find out how our courses have helped them achieve
+                their goals.
+              </p>
+            </div>
+            <div class="testimonial-slider">
+              <div class="testimonial active">
+                <img src="images/testimonial-1.jpg" alt="testimonial" />
+                <blockquote>
+                  <p class="quote">
+                    "I have learned so much from this course. The content is
+                    well-structured and easy to follow. I would highly recommend
+                    this course to anyone looking to improve their skills."
+                  </p>
+                  <p class="author">John Doe</p>
+                  <span class="job">Web Designer</span>
+                </blockquote>
+              </div>
+              <div class="testimonial">
+                <img src="images/testimonial-2.jpg" alt="testimonial" />
+                <blockquote>
+                  <p class="quote">
+                    "The course has exceeded my expectations. I have gained a lot
+                    of valuable insights and practical knowledge that I can apply
+                    to my projects. Thank you for this amazing course!"
+                  </p>
+                  <p class="author">Jane Smith</p>
+                  <span class="job">Web Developer</span>
+                </blockquote>
+              </div>
+              <div class="testimonial">
+                <img src="images/testimonial-3.jpg" alt="testimonial" />
+                <blockquote>
+                  <p class="quote">
+                    "I am very impressed with the quality of the course content.
+                    The instructors are knowledgeable and provide clear explanations
+                    of complex concepts."
+                  </p>
+                  <p class="author">David Johnson</p>
+                  <span class="job">College Student</span>
+                </blockquote>
+              </div>
+              <button class="btn-control prev">
+                <i class="fa-solid fa-chevron-left btn-icon"></i>
+              </button>
+              <button class="btn-control next">
+                <i class="fa-solid fa-chevron-right "></i>
+              </button>
+              <div class="dots">
+                <button class="dot active">&nbsp;</button>
+                <button class="dot">&nbsp;</button>
+                <button class="dot">&nbsp;</button>
+            </div>
+            </div>
+          </div>
+        </section>
+
+      <!-- Takeaways -->
+      <section class="takeaways section" id="takeaways">
+        <div class="container">
+          <div class="section-header">
+            <h2>Key Takeaways</h2>
+            <div class="heading-border"></div>
+            <p>
+              This section highlights some of the key insights and learnings
+              you'll gain from the course. Take a look at what you can expect to
+              achieve:
+            </p>
+          </div>
+          <div class="takeaways-cards">
+            <div class="card">
+              <i class="fas fa-rocket fa-3x text-primary"></i>
+              <p>
+                <strong>Enhanced Skills</strong> - Develop advanced skills in web
+                design & development
+              </p>
+            </div>
+            <div class="card">
+              <i class="fas fa-globe fa-3x text-primary"></i>
+              <p>
+                <strong>Global Perspective</strong> - Gain insights into industry
+                trends and best practices
+              </p>
+            </div>
+            <div class="card">
+              <i class="fas fa-cloud fa-3x text-primary"></i>
+              <p>
+                <strong>Cloud Technology</strong> - Explore the latest cloud
+                technologies and tools
+              </p>
+            </div>
+            <div class="card">
+              <i class="fas fa-user fa-3x text-primary"></i>
+              <p>
+                <strong>Networking </strong> - Connect with fellow professionals
+                and expand your network
+              </p>
+            </div>
+            <div class="card">
+              <i class="fas fa-cog fa-3x text-primary"></i>
+              <p>
+                <strong>Problem-Solving</strong> - Enhance your problem-solving
+                abilities and critical thinking skills
+              </p>
+            </div>
+            <div class="card">
+              <i class="fas fa-server fa-3x text-primary"></i>
+              <p>
+                <strong>Technical Proficiency</strong> - Improve your technical
+                proficiency and stay ahead in the digital landscape.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Author -->
+      <section class="details section" id="author">
+        <div class="container details-flex">
+          <img src="images/author.png" alt="author" />
+          <div class="details-content">
+            <h2>Author Information</h2>
+            <div class="heading-border"></div>
+            <p>
+              Learn about the author's background, expertise, and contributions to
+              the course content.
+            </p>
+            <ul>
+              <li>
+                <i class="fas fa-chevron-circle-right text-primary"></i>
+                <strong> Expertise: </strong> Lorem ipsum dolor sit amet
+                consectetur.
+              </li>
+              <li>
+                <i class="fas fa-chevron-circle-right text-primary"></i
+                ><strong>Experience:</strong> Blandit turpis a est eget augue
+                ornare.
+              </li>
+              <li>
+                <i class="fas fa-chevron-circle-right text-primary"></i
+                ><strong>Skills:</strong> Sed vulputate aliquet eget non velit.
+              </li>
+            </ul>
+            <a href="#" class="btn">See Details</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Newsletter -->
+      <section class="newsletter section" id="newsletter">
+        <div class="container newsletter-flex">
+          <h2>Subscribe To Our Newsletter</h2>
+          <p>
+            Stay updated with the latest news, offers, and insights from our
+            platform. Join our newsletter community today!
+          </p>
+          <form>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+            />
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container footer-flex">
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <p>&copy; 2024 - 2025 Tutor. All rights reserved</p>
+        </div>
+      </footer>
+
+  </body>
 </html>
